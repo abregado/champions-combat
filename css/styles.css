@@ -1,0 +1,73 @@
+body {
+    font-family: Arial;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    align-content: center;
+    background: #1a202c;
+}
+
+.page {
+    display:flex;
+    height:100%;
+    width: 1000px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+}
+
+.content {
+    overflow-y: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 105px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+    .page {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+    }
+
+    .sidebar {
+        overflow: auto;
+    }
+
+    .sidebar ul {
+        display: flex;
+        align-items: center;
+        justify-content: normal;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+
+    .content::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.chapter_title{
+    font-size: xx-large;
+}
+
+.card-image{
+    width: 25%;
+}
+
+.icon-image {
+    margin-top: -15px;
+    margin-bottom: -4px;
+    width: 28px;
+}

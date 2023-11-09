@@ -1,0 +1,14 @@
+---
+title: Champion's Combat
+permalink: /
+layout: single-column
+---
+
+{% for item in site.chapters %}
+    {% assign id_link = item.path | split:"/" | last | split:"." | first %}
+    <article class="chapter">
+        <h1 class="chapter_title" id="{{id_link}}">{{ item.title }}</h1>
+        <p>{{ item.content }}</p>
+        <hr>
+    </article>
+{% endfor %}

@@ -1,0 +1,13 @@
+#Settings
+title: Champion's Combat
+email: contact@benbuckton.com
+description: "A tabletop arena combat game for 2-4 players"
+url: ""
+markdown: kramdown
+
+partials:
+  - "_includes"
+
+collections:
+  chapters:
+    output: true
