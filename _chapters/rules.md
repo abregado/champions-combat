@@ -46,7 +46,7 @@ Shuffle and draw all Initiative cards into a line. Play then proceeds in this or
 
 {% include card_image.html link='files/images/special-init.png' %} 
 
-**Special Initiative Card:** This card shows all player colours. When this card needs to be resolved, if a player has the clear highest number of power tokens they can take a turn. If there is no clear player, nothing happens. Continue with the next Initiative card.
+**Special Initiative Card:** This card shows all player colours. When this card needs to be resolved, if one player has more tokens than all other players (individually, not combined) then they can take a turn. If no player has more tokens than all other players, then nothing happens. Continue with the next Initiative card.
 
 ## Resolution Phase
 For each initiative card, the shown player takes a turn. The player shown is considered to be the Active player for this turn.
