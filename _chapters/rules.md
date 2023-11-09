@@ -17,6 +17,8 @@ The Resolution phase is made up of a number of Turns. Each Turn is resolved usin
 2. If attacked, other players can play a Reaction effect from one of their cards.
 3. If any attacks were successful, the attacker can gain some points.
 
+Cards available [here](files/card-layout.pdf)
+
 # Setup
 The Score tokens are placed to the side of the play area.
 
