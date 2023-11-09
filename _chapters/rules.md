@@ -54,7 +54,8 @@ For each initiative card, the shown player takes a turn. The player shown is con
 Once the last Initiative card is resolved, return to the Draw phase.
 
 # The player turn
-The player whose Initiative is shown on the next Initiative is considered the Active player and can discard an action card, using either its Move or Attack effect. 
+The player whose colour is shown on the next Initiative is considered the Active player and takes a turn. The active player uses one of their cards to make a turn. The card is discarded when used. The player chooses either the Move or Attack effect from the card they play.
+
 The active player must use a card to resolve either a Move or Attack effect. Move effects are at the top, Attack effects in the middle, Reaction effects at the bottom.
 
 If an Attack effect is played, then each target of that effect can play a Reaction effect, if they wish, after the results of the Attack are resolved.
