@@ -74,49 +74,72 @@ Reshuffle discarded Action cards into their owners Action decks
 Players fill their hands to 4 Action cards.
 
 ## Initiative Phase
-Shuffle and draw all Initiative cards into a line. Play then proceeds in this order.
+Shuffle and draw all Initiative cards into a line. 
+Play then proceeds in this order.
 
 {% include card_image.html link='files/images/special-init.png' %} 
 
-**Special Initiative Card:** This card shows all player colours. When this card needs to be resolved, if one player has more Power tokens than all other players (individually, not combined) then they can take a turn. If no player has more Power tokens than all other players, then nothing happens. Continue with the next Initiative card.
+**Special Initiative Card:** This card shows all player colours. 
+When this card needs to be resolved, if one player has more Power tokens than all other players (individually, not combined) then they can take a turn. 
+If no player has more Power tokens than all other players, then nothing happens. 
+Continue with the next Initiative card.
 
 ## Resolution Phase
-For each initiative card, the shown player takes a turn. The player shown is considered to be the Active player for this turn.
+For each initiative card, the shown player takes a turn. 
+The player shown is considered to be the Active player for this turn.
 
 Once the last Initiative card is resolved, return to the Draw phase.
 
 # The player turn
-The player whose colour is shown on the next Initiative is considered the Active player and takes a turn. The active player uses one of their cards to make a turn. The card is discarded when used. The player chooses either the Move or Attack effect from the card they play.
+The player whose colour is shown on the next Initiative is considered the Active player and takes a turn. 
+The active player uses one of their cards to make a turn. 
+The card is discarded when used. 
+The player chooses either the Move or Attack effect from the card they play.
 
-The active player must use a card to resolve either a Move or Attack effect. Move effects are at the top, Attack effects in the middle, Reaction effects at the bottom.
+The active player must use a card to resolve either a Move or Attack effect. 
+Move effects are at the top, Attack effects in the middle, Reaction effects at the bottom.
 
 If an Attack effect is played, then each target of that effect can play a Reaction effect, if they wish, after the results of the Attack are resolved.
 
 ## Move effects
 Move effects are always at the top of the Action card.
 
-The player can move the number of hexes based on the number in the Move effect. Players may not move through each other nor end their movement on top of another player. You may not end a movement on the same hex you started on.
+The player can move the number of hexes based on the number in the Move effect. 
+Players may not move through each other nor end their movement on top of another player. 
+You may not end a movement on the same hex you started on.
 Once moved, the player can choose which way their character faces.
 
-{% include icon_image.html link='files/images/icon-displace.png' %} **Displace:**   When included in a move effect, this symbol allows you to enter the hex of another player. When you do so, you can move their character to any adjacent hex, except the one you just moved from. Its facing remains the same. 
+{% include icon_image.html link='files/images/icon-displace.png' %} 
+**Displace:**   When included in a move effect, this symbol allows you to enter the hex of another player. 
+When you do so, you can move their character to any adjacent hex, except the one you just moved from. 
+The moved character's facing remains the same. 
 
 ## Attack effects
 Attack effects are always in the middle of the action card.
 
-Choose a target that is inside either the red or blue zone on your style card. Roll the number of dice shown on the attack action, denoted by the Die icon. The field on the Style card shows if the dice needs a 3+ or 4+ to deal damage. Each hit causes one damage. Each attack may have one or more special rules, which are detailed below.
+Choose a target that is inside either the red or blue zone on your style card. 
+Roll the number of dice shown on the attack action, denoted by the Die icon. 
+The field on the Style card shows if the dice needs a 3+ or 4+ to deal damage. 
+Each hit causes one damage. Each attack may have one or more special rules, which are detailed below.
 
-Calculate the number of hits before moving on, but do not apply damage yet. The result may be modified due to a Reaction.
+Calculate the number of hits before moving on, but do not apply damage yet. 
+The result may be modified due to a Reaction.
 
-{% include icon_image.html link='files/images/icon-barrage.png' %} **Barrage:** An attack can be made against every target that can be hit.
+{% include icon_image.html link='files/images/icon-barrage.png' %} 
+**Barrage:** An attack can be made against every target that can be hit. 
+The attacker decides the order of Reactions of the targets.
 
-{% include icon_image.html link='files/images/icon-fumble.png' %} **Fumble:** After the attack is made, the target of the attack can choose a new facing for the attacker.
+{% include icon_image.html link='files/images/icon-fumble.png' %} 
+**Fumble:** After the attack is made, the target of the attack can choose a new facing for the attacker.
 
-{% include icon_image.html link='files/images/icon-push.png' %} **Push:** After the attack is made, the attacker can move the target 1 hex. Its facing remains the same.
+{% include icon_image.html link='files/images/icon-push.png' %} 
+**Push:** After the attack is made, the attacker can move the target 1 hex. Its facing remains the same.
 
 ### Reaction effects
 Reaction effects are always at the bottom of an action card.
 
-Each attacked player can discard one action card and activate its Reaction effect, unless the attack was made from the hex directly behind them. Calculate the entire effect of the Reaction before moving on to the next phase.
+Each attacked player can discard one action card and activate its Reaction effect, unless the attack was made from the hex directly behind them. 
+Calculate the entire effect of the Reaction before moving on to the next phase.
 
 ### Power token effects
 Some effects have either a {% include icon_image.html link='files/images/icon-power-up.png' %} or a {% include icon_image.html link='files/images/icon-power-down.png' %} icon on them.
