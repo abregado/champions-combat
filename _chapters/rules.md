@@ -133,7 +133,9 @@ The attacker decides the order of Reactions of the targets.
 **Fumble:** After the attack is made, the target of the attack can choose a new facing for the attacker.
 
 {% include icon_image.html link='files/images/icon-push.png' %} 
-**Push:** After the attack is made, the attacker can move the target 1 hex. Its facing remains the same.
+**Push:** After the attack is made, the attacker can move the target 1 hex.
+Its facing remains the same.
+The target cannot be moved into a wall.
 
 ### Reaction effects
 Reaction effects are always at the bottom of an action card.
