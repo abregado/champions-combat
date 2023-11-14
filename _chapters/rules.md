@@ -118,6 +118,7 @@ The moved character's facing remains the same.
 Attack effects are always in the middle of the action card.
 
 Choose a target that is inside either the red or blue zone on your style card. 
+If there are no targets on any of the hexes covered by your style card, you may not play an Attack card.
 Roll the number of dice shown on the attack action, denoted by the Die icon. 
 The field on the Style card shows if the dice needs a 3+ or 4+ to deal damage. 
 Each hit causes one damage. Each attack may have one or more special rules, which are detailed below.
