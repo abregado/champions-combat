@@ -109,9 +109,10 @@ If an Attack effect is played, then each target of that effect can play a Reacti
 Move effects are always at the top of the Action card.
 
 The player can move the number of hexes based on the number in the Move effect. 
-Players may not move through each other nor end their movement on top of another player. 
-You may not end a movement on the same hex you started on.
+Players may not move through each other nor end their movement on top of another player.
+A player may not end a movement on the same hex they started on, unless they played a zero movement card.
 Once moved, the player can choose which way their character faces.
+If a zero movement card is played, the player can still choose a new facing.
 
 {% include icon_image.html link='files/images/icon-displace.png' %} 
 **Displace:**   When included in a move effect, this symbol allows you to enter the hex of another player. 
