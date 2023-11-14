@@ -96,7 +96,8 @@ The active player uses one of their cards to make a turn.
 The card is discarded when used. 
 The player chooses either the Move or Attack effect from the card they play.
 
-The active player must use a card to resolve either a Move or Attack effect. 
+The active player must use a card to resolve either a Move or Attack effect.
+If the active player has no cards left in their hand at the beginning of their turn, then their turn is skipped.
 Move effects are at the top, Attack effects in the middle, Reaction effects at the bottom.
 
 If an Attack effect is played, then each target of that effect can play a Reaction effect, if they wish, after the results of the Attack are resolved.
