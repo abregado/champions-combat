@@ -74,8 +74,11 @@ Reshuffle discarded Action cards into their owners Action decks
 Players fill their hands to 4 Action cards.
 
 ## Initiative Phase
-Shuffle and draw all Initiative cards into a line. 
-Play then proceeds in this order.
+Create two decks of Initiative cards, each with a single Initiative card for each player.
+Place the two decks on top of each other without shuffling them together.
+Place the Special Initiative card on the bottom of the combined deck.
+Draw the Initiative cards out one by one, arranging them in a line.
+Play then proceeds in the order shown by the cards.
 
 {% include card_image.html link='files/images/special-init.png' %} 
 
