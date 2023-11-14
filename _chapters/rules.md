@@ -31,7 +31,7 @@ A hex board with about 40 hex spaces.
 
 A pile of 20 Power tokens.
 
-4 dice each with six sides.
+4 dice, each with six sides.
 
 # Phases of the Game
 Play begins with a Setup Phase and then continues with repeated Rounds of combat.
