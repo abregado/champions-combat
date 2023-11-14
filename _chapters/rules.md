@@ -50,7 +50,7 @@ The Resolution phase is made up of a number of Turns. Each Turn is resolved usin
 Cards available [here](files/card-layout.pdf)
 
 # Setup
-The Score tokens are placed to the side of the play area.
+Place the pile of Score tokens to the side of the play area.
 
 Each player takes a deck of Action cards.
 
@@ -58,9 +58,9 @@ Build the Initiative deck by combining 2 of each player's color, and the Special
 
 Each player draws a random Style card from the deck.
 
-Place a pile of Power tokens to the side of the play area.
+Place the pile of Power tokens to the side of the play area.
 
-Play then begins in the Draw Phase.
+Begin play in the Draw Phase.
 
 # Winning the Game
 First player to gain 5 score tokens wins.
