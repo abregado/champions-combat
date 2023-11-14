@@ -95,10 +95,8 @@ If an Attack effect is played, then each target of that effect can play a Reacti
 ## Move effects
 Move effects are always at the top of the Action card.
 
-The player can move the number of hexes based on the number in the Move effect. Players may not move through each other nor end their movement on top of another player.
+The player can move the number of hexes based on the number in the Move effect. Players may not move through each other nor end their movement on top of another player. You may not end a movement on the same hex you started on.
 Once moved, the player can choose which way their character faces.
-
-
 
 {% include icon_image.html link='files/images/icon-displace.png' %} **Displace:**   When included in a move effect, this symbol allows you to enter the hex of another player. When you do so, you can move their character to any adjacent hex, except the one you just moved from. Its facing remains the same. 
 
