@@ -137,6 +137,9 @@ The attacker decides the order of Reactions of the targets.
 {% include icon_image.html link='files/images/icon-push.png' %} 
 **Push:** After the attack is made, the attacker can move the target 1 hex. Its facing remains the same.
 
+If an Attack effect is played, then each target of that effect can play a Reaction effect, if they wish, after the results of the Attack are resolved.
+Each targeted player can play a Reaction even if no hits were scored on the dice.
+
 ### Reaction effects
 Reaction effects are always at the bottom of an action card.
 
