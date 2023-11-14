@@ -50,7 +50,7 @@ The Resolution phase is made up of a number of Turns. Each Turn is resolved usin
 Cards available [here](files/card-layout.pdf)
 
 # Setup
-The Score tokens are placed to the side of the play area.
+Place the pile of Score tokens to the side of the play area.
 
 Each player takes a deck of Action cards.
 
@@ -58,9 +58,9 @@ Build the Initiative deck by combining 2 of each player's color, and the Special
 
 Each player draws a random Style card from the deck.
 
-Place a pile of Power tokens to the side of the play area.
+Place the pile of Power tokens to the side of the play area.
 
-Play then begins in the Draw Phase.
+Begin play in the Draw Phase.
 
 # Winning the Game
 First player to gain 5 score tokens wins.
@@ -138,7 +138,9 @@ The attacker decides the order of Reactions of the targets.
 **Fumble:** After the attack is made, the target of the attack can choose a new facing for the attacker.
 
 {% include icon_image.html link='files/images/icon-push.png' %} 
-**Push:** After the attack is made, the attacker can move the target 1 hex. Its facing remains the same.
+**Push:** After the attack is made, the attacker can move the target 1 hex.
+Its facing remains the same.
+The target cannot be moved into a wall.
 
 If an Attack effect is played, then each target of that effect can play a Reaction effect, if they wish, after the results of the Attack are resolved.
 Each targeted player can play a Reaction even if no hits were scored on the dice.
