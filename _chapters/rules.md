@@ -54,7 +54,7 @@ Place the pile of Score tokens to the side of the play area.
 
 Each player takes a deck of Action cards.
 
-Build the Initiative deck by combining 2 of each player's color, and the Special Initiative card.  
+Build the Initiative deck by combining two of each player's color, and the Special Initiative card.  
 
 Each player draws a random Style card from the deck.
 
@@ -75,6 +75,7 @@ Players fill their hands to 4 Action cards.
 
 ## Initiative Phase
 Create two decks of Initiative cards, each with a single Initiative card for each player.
+Shuffle the two decks individually.
 Place the two decks on top of each other without shuffling them together.
 Place the Special Initiative card on the bottom of the combined deck.
 Draw the Initiative cards out one by one, arranging them in a line.
@@ -83,9 +84,8 @@ Play then proceeds in the order shown by the cards.
 {% include card_image.html link='files/images/special-init.png' %} 
 
 **Special Initiative Card:** This card shows all player colours. 
-When this card needs to be resolved, if one player has more Power tokens than all other players (individually, not combined) then they can take a turn. 
-If no player has more Power tokens than all other players, then nothing happens. 
-Continue with the next Initiative card.
+When this card is active, if one player has more Power tokens than all other players (individually, not combined) then they can take a turn. 
+If no player has more Power tokens than all other players, then nothing happens.
 
 ## Resolution Phase
 For each initiative card, the shown player takes a turn. 
