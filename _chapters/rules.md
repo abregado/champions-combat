@@ -3,7 +3,7 @@ title: Rules
 permalink: rules
 ---
 # What you need to play
-A deck of Action cards.
+A deck of [Action cards](files/card-layout.pdf).
 
 {% include card_image.html link='files/images/action-back.png' %}
 {% include card_image.html link='files/images/action-attack-card.png' %}
@@ -47,7 +47,6 @@ The Resolution phase is made up of a number of Turns. Each Turn is resolved usin
 2. If attacked, other players can play a Reaction effect from one of their cards.
 3. If any attacks were successful, the attacker can gain some points.
 
-Cards available [here](files/card-layout.pdf)
 
 # Setup
 Place the pile of Score tokens to the side of the play area.
