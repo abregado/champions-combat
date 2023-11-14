@@ -42,12 +42,6 @@ Each Round of Combat is made up of the following Phases:
 2. **Initiative phase**, in which player order is determined.
 3. **Resolution phase**, in which players take Turns using their cards.
 
-The Resolution phase is made up of a number of Turns. Each Turn is resolved using these steps:
-1. The active player plays a Move or Attack effect from one of their cards.
-2. If attacked, other players can play a Reaction effect from one of their cards.
-3. If any attacks were successful, the attacker can gain some points.
-
-
 # Setup
 Place the pile of Score tokens to the side of the play area.
 
@@ -66,10 +60,9 @@ First player to gain 5 score tokens wins.
 
 # Phases
 ## Draw Phase
-Choose to discard or keep each remaining Action card from last round.
-
-Reshuffle discarded Action cards into their owners Action decks
-
+Choose to discard or keep each remaining Action card from the last round.
+Combine your discard pile with your deck.
+Reshuffle discarded Action cards into their owner's Action decks
 Players fill their hands to 4 Action cards.
 
 ## Initiative Phase
@@ -87,48 +80,50 @@ When this card is active, if one player has more Power tokens than all other pla
 If no player has more Power tokens than all other players, then nothing happens.
 
 ## Resolution Phase
-For each initiative card, the shown player takes a turn. 
-The player shown is considered to be the Active player for this turn.
-
-Once the last Initiative card is resolved, return to the Draw phase.
-
-# The player turn
-The player whose colour is shown on the next Initiative is considered the Active player and takes a turn. 
+The player whose colour is shown on the next Initiative card is considered the Active player and takes a turn. 
 The active player uses one of their cards to make a turn. 
 The card is discarded when used. 
-The player chooses either the Move or Attack effect from the card they play.
+The player chooses to use either the Move or Attack effect from the card they play.
 
 The active player must use a card to resolve either a Move or Attack effect.
-If the active player has no cards left in their hand at the beginning of their turn, then their turn is skipped.
-Move effects are at the top, Attack effects in the middle, Reaction effects at the bottom.
+If the active player has no playable cards in their hand at the beginning of their turn, then their turn is skipped.
+Move effects are at the top of the action cards, Attack effects in the middle, Reaction effects at the bottom.
 
-If an Attack effect is played, then each target of that effect can play a Reaction effect, if they wish, after the results of the Attack are resolved.
+When the turn is complete, move on to the next Initiative card.
+When the last Initiative card is resolved, return to the Draw phase.
 
 ## Move effects
 Move effects are always at the top of the Action card.
 
-The player can move the number of hexes based on the number in the Move effect. 
+If the effect section shows a number such as {% include icon_image.html link='files/images/icon-1.png' %} or {% include icon_image.html link='files/images/icon-2.png' %} 
+then the player must move the same number of hexes.
 Players may not move through each other nor end their movement on top of another player.
-A player may not end a movement on the same hex they started on, unless they played a zero movement card.
-Once moved, the player can choose which way their character faces.
-If a zero movement card is played, the player can still choose a new facing.
+If the effect section contains a number greater than zero, the player may not end their movement on the same hex they started on.
+When the player has moved, they choose which direction their character faces.
+If a {% include icon_image.html link='files/images/icon-0.png' %} movement card is played, the player does not move, but can still rotate to a new direction.
+
+Each movement may have one or more special rules, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-displace.png' %} 
-**Displace:**   When included in a move effect, this symbol allows you to enter the hex of another player. 
-When you do so, you can move their character to any adjacent hex, except the one you just moved from. 
-The moved character's facing remains the same. 
+**Displace:** When included in a move effect, this symbol allows you to enter the hex of another player. 
+When you do so, you can move their character to any adjacent hex, except the hex you entered their hex from. 
+The moved character's orientation remains the same. 
+
+{% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
+**Power token effects** See the [Power token effects](#power-token-effects) section.
 
 ## Attack effects
 Attack effects are always in the middle of the action card.
 
-Choose a target that is inside either the red or blue zone on your style card. 
-If there are no targets on any of the hexes covered by your style card, you may not play an Attack card.
+Choose a target player that is inside a targeted hex on your style card. 
+If there are no players on any of the hexes covered by your style card, you may not play an Attack card.
 Roll the number of dice shown on the attack action, denoted by the Die icon. 
-The field on the Style card shows if the dice needs a 3+ or 4+ to deal damage. 
-Each hit causes one damage. Each attack may have one or more special rules, which are detailed below.
+The targeted hex on the Style card is marked with either "3+" or "4+".
+If the targeted hex is marked with 3+, then attack dice which landed on a number greater than or equal to three are successful, and attack dice less than three have failed.
+If the targeted hex is marked with 4+, then attack dice which landed on a number greater than or equal to four are successful, and attack dice less than four have failed.
+The attacker gains one score token for each successful attack die, unless this is modified by the target's reaction.
 
-Calculate the number of hits before moving on, but do not apply damage yet. 
-The result may be modified due to a Reaction.
+Each attack may have one or more special rules, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-barrage.png' %} 
 **Barrage:** An attack can be made against every target that can be hit. 
@@ -142,32 +137,35 @@ The attacker decides the order of Reactions of the targets.
 Its facing remains the same.
 The target cannot be moved into a wall.
 
-If an Attack effect is played, then each target of that effect can play a Reaction effect, if they wish, after the results of the Attack are resolved.
-Each targeted player can play a Reaction even if no hits were scored on the dice.
+{% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
+**Power token effects** See the [Power token effects](#power-token-effects) section.
 
-### Reaction effects
+When an Attack effect is played, then each target of that effect can choose to play or not play a Reaction effect. Reaction effects are played after the results of the Attack are resolved.
+Each targeted player can play a Reaction even if no attack dice were successful.
+
+## Reaction effects
 Reaction effects are always at the bottom of an action card.
 
 Each attacked player can discard one action card and activate its Reaction effect, unless the attack was made from the hex directly behind them. 
 Calculate the entire effect of the Reaction before moving on to the next phase.
 
-### Power token effects
+Each Reaction section has one or more effects, which are detailed below:
+
+{% include icon_image.html link='files/images/icon-block.png' %}
+**Shield** Reduce the number of successful attack dice by one for each shield effect.
+
+{% include icon_image.html link='files/images/icon-1.png' %} / {% include icon_image.html link='files/images/icon-2.png' %} ...
+**Move** When a number is displayed in the Reaction section of an action card, the reacting player executes a Move effect of that number.
+Note that this does not allow the reacting player to dodge the attack, and therefore does not reduce the number of successful attack dice.
+
+{% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %} 
+**Power token effects** See the [Power token effects](#power-token-effects) section.
+
+# Power token effects
 Some effects have either a {% include icon_image.html link='files/images/icon-power-up.png' %} or a {% include icon_image.html link='files/images/icon-power-down.png' %} icon on them.
 
 If an effect has a {% include icon_image.html link='files/images/icon-power-down.png' %} symbol on it, then you must spend a Power token to use the effect.
+If you do not have the required Power token, then you can not play the effect.
 
 For each {% include icon_image.html link='files/images/icon-power-up.png' %} symbol on an effect, you gain one Power token.
-
-## Turn end
-### Scoring damage
-All hits from an attack are calculated together during this step.
-
-Reduce damage by the amount of {% include icon_image.html link='files/images/icon-block.png' %} symbols played by the target’s reaction.
-
-For each remaining damage the attacker gains a score token.
-
-The turn is now over and the next Initiative card can be resolved.
-
-If there are no more Initiative cards to resolve, move to the Draw phase.
-
 
