@@ -107,7 +107,7 @@ Choose a target that is inside either the red or blue zone on your style card. R
 
 Calculate the number of hits before moving on, but do not apply damage yet. The result may be modified due to a Reaction.
 
-{% include icon_image.html link='files/images/icon-barrage.png' %} **Barrage:** An attack can be made against every target that can be hit.
+{% include icon_image.html link='files/images/icon-barrage.png' %} **Barrage:** An attack can be made against every target that can be hit. The attacker decides the order of Reactions of the targets.
 
 {% include icon_image.html link='files/images/icon-fumble.png' %} **Fumble:** After the attack is made, the target of the attack can choose a new facing for the attacker.
 
