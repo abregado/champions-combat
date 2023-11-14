@@ -1,0 +1,13 @@
+move,attack,reaction,card_type
+2,dd,1+,1
+1z,dd,1+,1
+++,dd,1+,1
+2,dd,1+,1
+0+,ddd-,x,2
+0+,ddp-,x,2
+0+,ddddf-,x,2
+0+,ddb-,x,2
+1,dd,++,3
+1,d+,xx-,3
+1,d+,2-,3
+1,d+,xx-,3

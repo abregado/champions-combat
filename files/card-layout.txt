@@ -1,5 +1,6 @@
-LINK=card-data.ods
-
+LINK=card-data.csv
+PAGE=28,36,landscape,HV
+CARDSIZE=6.3,8.8
 VISUAL=, 10, 10
 <FRAME_ALL>=0%,0%,100%,100%
 <MOVE_FRAME_MOVE>=5%,5%,90%,41%
