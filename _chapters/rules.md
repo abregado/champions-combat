@@ -47,7 +47,7 @@ Place the pile of Score tokens to the side of the play area.
 
 Each player takes a deck of Action cards.
 
-Build the Initiative deck by combining two of each player's color, and the Special Initiative card.  
+Build the Initiative deck by combining two of each player's color, and the Special Initiative card.
 
 Each player draws a random Style card from the deck.
 
@@ -82,38 +82,40 @@ If no player has more Power tokens than all other players, then nothing happens.
 ## Resolution Phase
 The player whose colour is shown on the next Initiative card is considered the Active player and takes a turn. 
 The active player uses one of their cards to make a turn. 
-The card is discarded when used. 
-The player chooses to use either the Move or Attack effect from the card they play.
+The card is discarded when it is played.
+Each card contains three sections, the Move section, the Attack section, and the Reaction section.
+The player chooses to use either the Move section or the Attack section from the card they play.
 
-The active player must use a card to resolve either a Move or Attack effect.
+The active player must use a card to execute a Move section or an Attack section.
 If the active player has no playable cards in their hand at the beginning of their turn, then their turn is skipped.
-Move effects are at the top of the action cards, Attack effects in the middle, Reaction effects at the bottom.
+The Move section is at the top of each action card, the Attack section is in the middle, and the Reaction section is at the bottom.
 
 When the turn is complete, move on to the next Initiative card.
 When the last Initiative card is resolved, return to the Draw phase.
 
-## Move effects
-Move effects are always at the top of the Action card.
+### Move section
+The Move section is always at the top of the Action card, but the Reaction section can also include Move effects.
 
-If the effect section shows a number such as {% include icon_image.html link='files/images/icon-1.png' %} or {% include icon_image.html link='files/images/icon-2.png' %} 
-then the player must move the same number of hexes.
+If the section shows a number such as {% include icon_image.html link='files/images/icon-1.png' %} or {% include icon_image.html link='files/images/icon-2.png' %}
+then the player must move that number of hexes.
 Players may not move through each other nor end their movement on top of another player.
-If the effect section contains a number greater than zero, the player may not end their movement on the same hex they started on.
+If the number is greater than zero, the player may not end their movement on the same hex they started on.
 When the player has moved, they choose which direction their character faces.
+
 If a {% include icon_image.html link='files/images/icon-0.png' %} movement card is played, the player does not move, but can still rotate to a new direction.
 
-Each movement may have one or more special rules, which are detailed below:
+Each movement may have one or more special effects, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-displace.png' %} 
-**Displace:** When included in a move effect, this symbol allows you to enter the hex of another player. 
+**Displace:** When included in a move section, this symbol allows you to enter the hex of another player.
 When you do so, you can move their character to any adjacent hex, except the hex you entered their hex from. 
 The moved character's orientation remains the same. 
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
-**Power token effects** See the [Power token effects](#power-token-effects) section.
+**Power token effects:** See the [Power token effects](#power-token-effects) section.
 
-## Attack effects
-Attack effects are always in the middle of the action card.
+### Attack section
+The Attack section is always in the middle of the action card.
 
 Choose a target player that is inside a targeted hex on your style card. 
 If there are no players on any of the hexes covered by your style card, you may not play an Attack card.
@@ -123,49 +125,52 @@ If the targeted hex is marked with 3+, then attack dice which landed on a number
 If the targeted hex is marked with 4+, then attack dice which landed on a number greater than or equal to four are successful, and attack dice less than four have failed.
 The attacker gains one score token for each successful attack die, unless this is modified by the target's reaction.
 
-Each attack may have one or more special rules, which are detailed below:
+Each attack may have one or more special effects, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-barrage.png' %} 
-**Barrage:** An attack can be made against every target that can be hit. 
+**Barrage:** An attack is made against every target that can be hit.
 The attacker decides the order of Reactions of the targets.
 
 {% include icon_image.html link='files/images/icon-fumble.png' %} 
-**Fumble:** After the attack is made, the target of the attack can choose a new facing for the attacker.
+**Fumble:** After the attack is made, the target of the attack chooses a new orientation for the attacker.
 
 {% include icon_image.html link='files/images/icon-push.png' %} 
-**Push:** After the attack is made, the attacker can move the target 1 hex.
-Its facing remains the same.
+**Push:** After the attack is made, the attacker moves the target 1 hex.
+Orientation remains the same.
 The target cannot be moved into a wall.
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
-**Power token effects** See the [Power token effects](#power-token-effects) section.
+**Power token effects:** See the [Power token effects](#power-token-effects) section.
 
-When an Attack effect is played, then each target of that effect can choose to play or not play a Reaction effect. Reaction effects are played after the results of the Attack are resolved.
+When an Attack effect is played, then each target of that effect can choose to discard a card from their hand, and execute the Reaction section.
+Targeted players can also choose not to play a Reaction.
+Reactions are played after the results of the Attack are resolved.
 Each targeted player can play a Reaction even if no attack dice were successful.
 
-## Reaction effects
-Reaction effects are always at the bottom of an action card.
+### Reaction section
+The Reaction section is always at the bottom of an action card.
 
-Each attacked player can discard one action card and activate its Reaction effect, unless the attack was made from the hex directly behind them. 
+Each attacked player can discard one action card and activate its Reaction section, unless the attack was made from the hex directly behind them.
 Calculate the entire effect of the Reaction before moving on to the next phase.
 
 Each Reaction section has one or more effects, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-block.png' %}
-**Shield** Reduce the number of successful attack dice by one for each shield effect.
+**Shield:** Reduce the number of successful attack dice by one for each shield effect.
 
 {% include icon_image.html link='files/images/icon-1.png' %} / {% include icon_image.html link='files/images/icon-2.png' %} ...
-**Move** When a number is displayed in the Reaction section of an action card, the reacting player executes a Move effect of that number.
+**Move:** When a number is displayed in the Reaction section of an action card, the reacting player executes a Move effect
+of that number, following the [Move section](#move-section) rules.
 Note that this does not allow the reacting player to dodge the attack, and therefore does not reduce the number of successful attack dice.
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %} 
-**Power token effects** See the [Power token effects](#power-token-effects) section.
+**Power token effects:** See the [Power token effects](#power-token-effects) section.
 
 # Power token effects
-Some effects have either a {% include icon_image.html link='files/images/icon-power-up.png' %} or a {% include icon_image.html link='files/images/icon-power-down.png' %} icon on them.
+Sections can contain a {% include icon_image.html link='files/images/icon-power-up.png' %} or {% include icon_image.html link='files/images/icon-power-down.png' %} symbol.
 
-If an effect has a {% include icon_image.html link='files/images/icon-power-down.png' %} symbol on it, then you must spend a Power token to use the effect.
-If you do not have the required Power token, then you can not play the effect.
+If a section has a {% include icon_image.html link='files/images/icon-power-down.png' %} symbol on it, then you must spend a Power token to use the effect.
+If you do not have the required Power token, then you can not play the section.
 
-For each {% include icon_image.html link='files/images/icon-power-up.png' %} symbol on an effect, you gain one Power token.
+For each {% include icon_image.html link='files/images/icon-power-up.png' %} symbol in a section, you gain one Power token.
 
