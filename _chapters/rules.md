@@ -41,6 +41,7 @@ Each Round of Combat is made up of the following Phases:
 1. **Draw phase**, in which players get a new hand of cards.
 2. **Initiative phase**, in which player order is determined.
 3. **Resolution phase**, in which players take Turns using their cards.
+4. **Scoring phase**, in which players earn Score tokens for causing damage.
 
 # Setup
 Place the pile of Score tokens to the side of the play area.
@@ -175,7 +176,7 @@ Note that this does not allow the reacting player to dodge the attack, and there
 
 ## Scoring Phase
 For each hit the active player gains one Score token.
-If they have a total of 5 Score token, then they immediately win the game.
+If they have a total of 5 Score tokens, then they immediately win the game.
 
 
 # Power token effects
