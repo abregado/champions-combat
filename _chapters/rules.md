@@ -2,7 +2,7 @@
 title: Rules
 permalink: rules
 ---
-# What you need to play
+# Components needed to play
 A deck of [Action cards](files/card-layout.pdf).
 
 {% include card_image.html link='files/images/action-back.png' %}
@@ -60,10 +60,11 @@ First player to gain 5 score tokens wins.
 
 # Phases
 ## Draw Phase
-Choose to discard or keep each remaining Action card from the last round.
-Combine your discard pile with your deck.
-Reshuffle discarded Action cards into their owner's Action decks
-Players fill their hands to 4 Action cards.
+Each player discards any remaining cards in their hand.
+
+Each player adds their discard pile to their Action deck and then shuffles it.
+
+Players draw 4 Action cards into their hand.
 
 ## Initiative Phase
 Create two decks of Initiative cards, each with a single Initiative card for each player.
@@ -107,8 +108,8 @@ If a {% include icon_image.html link='files/images/icon-0.png' %} movement card 
 Each movement may have one or more special effects, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-displace.png' %} 
-**Displace:** When included in a move section, this symbol allows you to enter the hex of another player.
-When you do so, you can move their character to any adjacent hex, except the hex you entered their hex from. 
+**Displace:** When included in a move section, this symbol allows a player's character to enter the hex of another character.
+When this happens, the moving player can move the other player's character to any adjacent hex, except the hex which the moving player entered from. 
 The moved character's orientation remains the same. 
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
@@ -117,13 +118,14 @@ The moved character's orientation remains the same.
 ### Attack section
 The Attack section is always in the middle of the action card.
 
-Choose a target player that is inside a targeted hex on your style card. 
-If there are no players on any of the hexes covered by your style card, you may not play an Attack card.
-Roll the number of dice shown on the attack action, denoted by the Die icon. 
-The targeted hex on the Style card is marked with either "3+" or "4+".
-If the targeted hex is marked with 3+, then attack dice which landed on a number greater than or equal to three are successful, and attack dice less than three have failed.
-If the targeted hex is marked with 4+, then attack dice which landed on a number greater than or equal to four are successful, and attack dice less than four have failed.
-The attacker gains one score token for each successful attack die, unless this is modified by the target's reaction.
+When using the Attack section of a card, a player follows these steps:
+* A target character is chosen. The target must be inside a hex shown on the attackers Style card. 
+* If there are no characters on any of the hexes covered by the attackers style card, an Attack card may not be played.
+* A number of dice, denoted by the number Die icons in the Attack section, are rolled.
+* The targeted hex on the Style card is marked with either "3+" or "4+".
+* If the targeted hex is marked with 3+, then attack dice which landed on a number greater than or equal to three are successful, and attack dice less than three have failed.
+* If the targeted hex is marked with 4+, then attack dice which landed on a number greater than or equal to four are successful, and attack dice less than four have failed.
+* Each successful die is considered a hit.
 
 Each attack may have one or more special effects, which are detailed below:
 
@@ -169,8 +171,8 @@ Note that this does not allow the reacting player to dodge the attack, and there
 # Power token effects
 Sections can contain a {% include icon_image.html link='files/images/icon-power-up.png' %} or {% include icon_image.html link='files/images/icon-power-down.png' %} symbol.
 
-If a section has a {% include icon_image.html link='files/images/icon-power-down.png' %} symbol on it, then you must spend a Power token to use the effect.
-If you do not have the required Power token, then you can not play the section.
+If a section has a {% include icon_image.html link='files/images/icon-power-down.png' %} symbol on it, then a Power token must be spent to use the effect.
+If a player does not have the required Power token, then that section cannot be used.
 
-For each {% include icon_image.html link='files/images/icon-power-up.png' %} symbol in a section, you gain one Power token.
+For each {% include icon_image.html link='files/images/icon-power-up.png' %} symbol in a section, the player gains one Power token.
 
