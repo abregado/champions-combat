@@ -135,7 +135,7 @@ When using the Attack section of a card, a player follows these steps:
 Each attack may have one or more special effects, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-barrage.png' %} 
-**Barrage:** An attack is made against every target that can be hit.
+**Barrage:** An attack is made against every target that occupies a hex shown on the attackers Style card.
 The attacker decides the order of Reactions of the targets.
 
 {% include icon_image.html link='files/images/icon-fumble.png' %} 
@@ -149,10 +149,10 @@ The target cannot be moved into a wall.
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
 **Power token effects:** See the [Power token effects](#power-token-effects) section.
 
-When an Attack effect is played, then each target of that effect can choose to discard a card from their hand, and execute the Reaction section.
-Targeted players can also choose not to play a Reaction.
-Reactions are played after the results of the Attack are resolved.
-Each targeted player can play a Reaction even if no attack dice were successful.
+When an Attack effect is played, then each target of that effect can choose to play and discard a card from their hand, and resolve the Reaction section.
+Targeted players can choose if they play a Reaction.
+Reactions are played after the results of the Attack section are resolved.
+Each targeted player can play a Reaction even if no hits were scored.
 
 ### Reaction section
 The Reaction section is always at the bottom of an action card.
@@ -163,7 +163,7 @@ Calculate the entire effect of the Reaction before moving on to the next phase.
 Each Reaction section has one or more effects, which are detailed below:
 
 {% include icon_image.html link='files/images/icon-block.png' %}
-**Shield:** Reduce the number of successful attack dice by one for each shield effect.
+**Shield:** Reduce the number of hits by one for each shield effect.
 
 {% include icon_image.html link='files/images/icon-1.png' %} / {% include icon_image.html link='files/images/icon-2.png' %} ...
 **Move:** When a number is displayed in the Reaction section of an action card, the reacting player executes a Move effect
@@ -172,6 +172,11 @@ Note that this does not allow the reacting player to dodge the attack, and there
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %} 
 **Power token effects:** See the [Power token effects](#power-token-effects) section.
+
+## Scoring Phase
+For each hit the active player gains one Score token.
+If they have a total of 5 Score token, then they immediately win the game.
+
 
 # Power token effects
 Sections can contain a {% include icon_image.html link='files/images/icon-power-up.png' %} or {% include icon_image.html link='files/images/icon-power-down.png' %} symbol.
