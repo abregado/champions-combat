@@ -1,4 +1,4 @@
-move,attack,reaction,card_type
+move,attack,reaction,card_type,player_number,style_shape
 2,dd,1+,1
 1z,dd,1+,1
 ++,dd,1+,1
@@ -14,3 +14,21 @@ move,attack,reaction,card_type
 1,d+,2-,3
 1,d+,xx-,3
 1,d+,1x-,3
+,,,4,1
+,,,4,1
+,,,4,2
+,,,4,2
+,,,4,3
+,,,4,3
+,,,4,4
+,,,4,4
+,,,6,?
+,,,5,,images/style-01.png
+,,,5,,images/style-02.png
+,,,5,,images/style-03.png
+,,,5,,images/style-04.png
+,,,5,,images/style-05.png
+,,,5,,images/style-06.png
+,,,5,,images/style-07.png
+,,,5,,images/style-08.png
+,,,5,,images/style-09.png
