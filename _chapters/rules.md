@@ -68,10 +68,15 @@ Players draw 4 Action cards into their hand.
 
 ## Initiative Phase
 Create two decks of Initiative cards, each with a single Initiative card for each player.
+
 Shuffle the two decks individually.
+
 Place the two decks on top of each other without shuffling them together.
+
 Place the Special Initiative card on the bottom of the combined deck.
+
 Draw the Initiative cards out one by one, arranging them in a line.
+
 Play then proceeds in the order shown by the cards.
 
 {% include card_image.html link='files/images/special-init.png' %} 
