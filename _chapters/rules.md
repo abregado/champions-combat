@@ -101,7 +101,7 @@ When the turn is complete, move on to the next Initiative card.
 When the last Initiative card is resolved, return to the Draw phase.
 
 ### Move section
-The Move section is always at the top of the Action card, but the Reaction section can also include Move effects.
+The Move section is always at the top of the Action card.
 
 If the section shows a number such as {% include icon_image.html link='files/images/icon-1.png' %} or {% include icon_image.html link='files/images/icon-2.png' %}
 then the player must move that number of hexes.
@@ -167,8 +167,7 @@ Each Reaction section has one or more effects, which are detailed below:
 **Shield:** Reduce the number of hits by one for each shield effect.
 
 {% include icon_image.html link='files/images/icon-1.png' %} / {% include icon_image.html link='files/images/icon-2.png' %} ...
-**Move:** When a number is displayed in the Reaction section of an action card, the reacting player executes a Move effect
-of that number, following the [Move section](#move-section) rules.
+**Move:** When a number is displayed in the Reaction section of an action card, the reacting player can move their figurine following the [Move section](#move-section) rules.
 Note that this does not allow the reacting player to dodge the attack, and therefore does not reduce the number of successful attack dice.
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %} 
