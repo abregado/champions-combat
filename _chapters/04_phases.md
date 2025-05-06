@@ -1,61 +1,8 @@
 ---
-title: Rules
-permalink: rules
+title: Game Phases
+permalink: phases
+layout: single-column
 ---
-# Components needed to play
-A deck of [Action cards](files/card-layout.pdf).
-
-{% include card_image.html link='files/images/action-back.png' %}
-{% include card_image.html link='files/images/action-attack-card.png' %}
-{% include card_image.html link='files/images/action-move-card.png' %}
-{% include card_image.html link='files/images/action-reaction-card.png' %}
-
-A deck of Style cards.
-
-{% include card_image.html link='files/images/style-back.png' %}
-{% include card_image.html link='files/images/style-front.png' %}
-
-A deck of Initiative cards.
-
-{% include card_image.html link='files/images/init-back.png' %}
-{% include card_image.html link='files/images/init-1.png' %}
-{% include card_image.html link='files/images/init-2.png' %}
-{% include card_image.html link='files/images/init-3.png' %}
-{% include card_image.html link='files/images/init-4.png' %}
-
-A pile of 20 Score tokens.
-
-One figurine for each player.
-
-A hex board with about 40 hex spaces.
-
-A pile of 20 Power tokens.
-
-4 dice, each with six sides.
-
-# Winning the Game
-First player to gain 5 score tokens wins.
-
-# Game Overview
-Play begins with a Setup Phase and then continues with repeated Rounds of combat.
-
-
-## Setup
-1. Place the pile of Score tokens to the side of the play area
-2. Each player takes a deck of Action cards.
-3. Build the Initiative deck by combining two of each player's color, and the 4. Special Initiative card.
-5. Each player draws a random Style card from the deck.
-6. Place the pile of Power tokens to the side of the play area.
-7. Begin play in the Draw Phase.
-{: .procedural-steps}
-
-Each Round of Combat is made up of the following Phases:
-1. **Draw phase**, in which players get a new hand of cards.
-2. **Initiative phase**, in which player order is determined.
-3. **Resolution phase**, in which players take Turns using their cards.
-4. **Scoring phase**, in which players earn Score tokens for causing damage.
-
-# Phases
 ## Draw Phase
 1. Each player discards any remaining cards in their hand.
 2. Each player adds their discard pile to their Action deck and then shuffles it.
@@ -110,7 +57,7 @@ When this happens, the moving player can move the other player's character to an
 The moved character's orientation remains the same. 
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
-**Power token effects:** See the [Power token effects](#power-token-effects) section.
+**Power token effects:** See the [Power token effects](power-tokens) section.
 
 ### Attack section
 The Attack section is always in the middle of the action card.
@@ -124,7 +71,6 @@ When using the Attack section of a card, a player follows these steps:
 6. If the targeted hex is marked with 4+, then attack dice which landed on a number greater than or equal to four are successful, and attack dice less than four have failed.
 7. Each successful die is considered a hit.
 {: .procedural-steps}
-
 
 Each attack may have one or more special effects, which are detailed below:
 
@@ -141,7 +87,7 @@ Orientation remains the same.
 The target cannot be moved into a wall.
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %}
-**Power token effects:** See the [Power token effects](#power-token-effects) section.
+**Power token effects:** See the [Power token effects](power-tokens) section.
 
 When an Attack effect is played, then each target of that effect can choose to play and discard a card from their hand, and resolve the Reaction section.
 Targeted players can choose if they play a Reaction.
@@ -164,18 +110,4 @@ Each Reaction section has one or more effects, which are detailed below:
 Note that this does not allow the reacting player to dodge the attack, and therefore does not reduce the number of successful attack dice.
 
 {% include icon_image.html link='files/images/icon-power-up.png' %} / {% include icon_image.html link='files/images/icon-power-down.png' %} 
-**Power token effects:** See the [Power token effects](#power-token-effects) section.
-
-## Scoring Phase
-For each hit the active player gains one Score token.
-If they have a total of 5 Score tokens, then they immediately win the game.
-
-
-# Power token effects
-Sections can contain a {% include icon_image.html link='files/images/icon-power-up.png' %} or {% include icon_image.html link='files/images/icon-power-down.png' %} symbol.
-
-If a section has a {% include icon_image.html link='files/images/icon-power-down.png' %} symbol on it, then a Power token must be spent to use the effect.
-If a player does not have the required Power token, then that section cannot be used.
-
-For each {% include icon_image.html link='files/images/icon-power-up.png' %} symbol in a section, the player gains one Power token.
-
+**Power token effects:** See the [Power token effects](power-tokens) section. 
