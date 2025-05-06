@@ -33,52 +33,43 @@ A pile of 20 Power tokens.
 
 4 dice, each with six sides.
 
-# Phases of the Game
+# Winning the Game
+First player to gain 5 score tokens wins.
+
+# Game Overview
 Play begins with a Setup Phase and then continues with repeated Rounds of combat.
 
-Each Round of Combat is made up of the following Phases:
 
+## Setup
+1. Place the pile of Score tokens to the side of the play area
+2. Each player takes a deck of Action cards.
+3. Build the Initiative deck by combining two of each player's color, and the 4. Special Initiative card.
+5. Each player draws a random Style card from the deck.
+6. Place the pile of Power tokens to the side of the play area.
+7. Begin play in the Draw Phase.
+{: .procedural-steps}
+
+Each Round of Combat is made up of the following Phases:
 1. **Draw phase**, in which players get a new hand of cards.
 2. **Initiative phase**, in which player order is determined.
 3. **Resolution phase**, in which players take Turns using their cards.
 4. **Scoring phase**, in which players earn Score tokens for causing damage.
 
-# Setup
-Place the pile of Score tokens to the side of the play area.
-
-Each player takes a deck of Action cards.
-
-Build the Initiative deck by combining two of each player's color, and the Special Initiative card.
-
-Each player draws a random Style card from the deck.
-
-Place the pile of Power tokens to the side of the play area.
-
-Begin play in the Draw Phase.
-
-# Winning the Game
-First player to gain 5 score tokens wins.
-
 # Phases
 ## Draw Phase
-Each player discards any remaining cards in their hand.
-
-Each player adds their discard pile to their Action deck and then shuffles it.
-
-Players draw 4 Action cards into their hand.
+1. Each player discards any remaining cards in their hand.
+2. Each player adds their discard pile to their Action deck and then shuffles it.
+3. Players draw 4 Action cards into their hand.
+{: .procedural-steps}
 
 ## Initiative Phase
-Create two decks of Initiative cards, each with a single Initiative card for each player.
-
-Shuffle the two decks individually.
-
-Place the two decks on top of each other without shuffling them together.
-
-Place the Special Initiative card on the bottom of the combined deck.
-
-Draw the Initiative cards out one by one, arranging them in a line.
-
-Play then proceeds in the order shown by the cards.
+1. Create two decks of Initiative cards, each with a single Initiative card for each player.
+2. Shuffle the two decks individually.
+3. Place the two decks on top of each other without shuffling them together.
+4. Place the Special Initiative card on the bottom of the combined deck.
+5. Draw the Initiative cards out one by one, arranging them in a line.
+6. Play then proceeds in the order shown by the cards.
+{: .procedural-steps}
 
 {% include card_image.html link='files/images/special-init.png' %} 
 
@@ -125,13 +116,15 @@ The moved character's orientation remains the same.
 The Attack section is always in the middle of the action card.
 
 When using the Attack section of a card, a player follows these steps:
-* A target character is chosen. The target must be inside a hex shown on the attackers Style card. 
-* If there are no characters on any of the hexes covered by the attackers style card, an Attack card may not be played.
-* A number of dice, denoted by the number Die icons in the Attack section, are rolled.
-* The targeted hex on the Style card is marked with either "3+" or "4+".
-* If the targeted hex is marked with 3+, then attack dice which landed on a number greater than or equal to three are successful, and attack dice less than three have failed.
-* If the targeted hex is marked with 4+, then attack dice which landed on a number greater than or equal to four are successful, and attack dice less than four have failed.
-* Each successful die is considered a hit.
+1. A target character is chosen. The target must be inside a hex shown on the attackers Style card. 
+2. If there are no characters on any of the hexes covered by the attackers style card, an Attack card may not be played.
+3. A number of dice, denoted by the number Die icons in the Attack section, are rolled.
+4. The targeted hex on the Style card is marked with either "3+" or "4+".
+5. If the targeted hex is marked with 3+, then attack dice which landed on a number greater than or equal to three are successful, and attack dice less than three have failed.
+6. If the targeted hex is marked with 4+, then attack dice which landed on a number greater than or equal to four are successful, and attack dice less than four have failed.
+7. Each successful die is considered a hit.
+{: .procedural-steps}
+
 
 Each attack may have one or more special effects, which are detailed below:
 
