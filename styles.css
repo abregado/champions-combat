@@ -1,0 +1,39 @@
+.image-with-text {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.image-with-text-image {
+    width: 200px;
+}
+
+.image-with-text-image img {
+    height: auto;
+    object-fit: contain;
+}
+
+.image-with-text-content {
+    flex: 1;
+    min-width: 0; /* Prevents flex item from overflowing */
+}
+
+.image-with-text-content p {
+    display: inline;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .image-with-text {
+        flex-direction: column;
+    }
+    
+    .image-with-text-image {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 15px;
+    }
+} 

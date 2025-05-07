@@ -1,0 +1,13 @@
+<div class="image-with-text">
+    <div class="image-with-text-image">
+        <img src="{{ include.image }}" alt="">
+    </div>
+    <div class="image-with-text-content">
+        {% assign content = include.content | strip %}
+        {% if content contains '<p>' %}
+            {{ content | replace: '<p>', '' | replace: '</p>', '' | markdownify }}
+        {% else %}
+            {{ content | markdownify }}
+        {% endif %}
+    </div>
+</div> 

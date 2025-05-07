@@ -18,11 +18,11 @@ layout: single-column
 6. Play then proceeds in the order shown by the cards.
 {: .procedural-steps}
 
-{% include card_image.html link='files/images/special-init.png' %} 
-
-**Special Initiative Card:** This card shows all player colours. 
+{% include image_with_text.html 
+    image='files/images/special-init.png'
+    content="**Special Initiative Card:** This card shows all player colours. 
 When this card is active, if one player has more Power tokens than all other players (individually, not combined) then they can take a turn. 
-If no player has more Power tokens than all other players, then nothing happens.
+If no player has more Power tokens than all other players, then nothing happens." %}
 
 ## Resolution Phase
 The player whose colour is shown on the next Initiative card is considered the Active player and takes a turn. 
